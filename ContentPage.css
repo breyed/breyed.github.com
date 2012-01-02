@@ -1,0 +1,141 @@
+﻿body {
+	background: rgb(251,211,220) url("images/RoseBackground.jpg");
+	font-family: "Georgia", serif;
+	color: black;
+}
+div.Step {
+	clear: both;
+	color: inherit;
+	background: rgb(255,238,232) url("images/ParchmentPink.jpg");
+	padding: 1.5em;
+	margin: 2em 10%;
+	border: 1px solid gray;
+	border-radius: 1.5ex;
+	box-shadow: 10px 10px 5px #888;
+}
+div.clear {
+	/* Use an empty div at the end of a div block to prevent a floating picture from extending below the div block. */
+	clear: both;
+}
+.Step li {
+	margin-bottom: .5ex;
+}
+.Step dl dt {
+	font-weight: bold;
+	margin-top: 1em;
+}
+h1, h2, h3 {
+	color: maroon;
+}
+h1 {
+	font: bold 300% "French Script MT" , "Monotype Corsiva" , "Lucida Calligraphy" , "Old English Text MT" , serif;
+	text-align: center;
+	background: rgb(255,240,207) url("images/Parchment.jpg");
+	padding: .2em;
+	border-radius: .8ex;
+	border: solid .2ex maroon;
+	margin: .5em 20% 1em;
+}
+h1 small, h2 small {
+	display: block;
+	font-weight: normal;
+}
+h2, h3 {
+	font: italic normal 140% "Georgia" , serif;
+	margin-top: 0em; /* We turn the margin off so that the heading abuts the container's padding. Ideally, we would only turn it off for first-child; however IE6's handling of first-child is buggy. TODO: Work around the problem again with the FirstChild class. */
+}
+h3 {
+	font-size: 120%;
+	margin-top: 1.5em;
+}
+.Step p {
+	text-align: justify;
+}
+.Step img {
+	vertical-align: middle;
+	border: none;
+	margin: 1em;
+}
+.Step img {
+	float: right;
+	margin: 0 0 1ex 1.5em;
+}
+.PhotoDirections div.Step {
+	min-width: 780px;
+	margin: 2em 1em;
+}
+a:link {
+	color: #993300;
+	background: none;
+	text-decoration: none;
+}
+a:visited {
+	color: maroon;
+	background: none;
+	text-decoration: none;
+}
+a:hover, a img:hover {
+	background: #FFCC66;
+}
+a:active, a img:active {
+	color: black;
+	background-color: rgb(219, 112, 147);
+}
+.NavFooter {
+	font: 140% 'Rochester' , 'Monotype Corsiva' , cursive;
+	padding: 1em;
+	margin: 1ex;
+	text-align: left;
+	line-height: 3em;
+}
+.NavFooter span {
+	border: thin solid #ccccaa;
+	background: #ffffcc;
+	text-align: center;
+	padding: 1ex;
+	border-radius: .5ex;
+}
+
+#disqus_thread {
+	background: white;
+	margin: 4em;
+	padding: 1ex 1em;
+	border-radius: 1ex;
+}
+#disqus_thread h3 {
+	font: normal 80% sans-serif;
+	color: black;
+}
+#disqus_thread li {
+	font: normal 90% sans-serif;
+	color: black;
+}
+#disqus_thread a {
+	font: normal 90% sans-serif;
+}
+
+/* Style overrides for printing */
+@media print {
+	h1, body div {
+		/* > */
+		margin: auto;
+		border: none;
+		background: none;
+		page-break-inside: avoid;
+	}
+	.Album div {
+		page-break-before: always; /* This is here since IE5 does a bad job with page-break-inside:avoid. */
+	}
+	*:link, *:visited {
+		color: black;
+		background: none;
+		text-decoration: none;
+	}
+	.NavFooter {
+		display: none;
+	}
+	.Resume h1 {
+		background: none;
+		border: none;
+	}
+}

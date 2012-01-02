@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "BreyFamily", ".", "{4302E6A6-84EA-4CFD-B8B6-DE6FA5C1152E}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
+		Debug.AspNetCompiler.VirtualPath = "/BreyFamily"
+		Debug.AspNetCompiler.PhysicalPath = "..\BreyFamily\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\BreyFamily\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/BreyFamily"
+		Release.AspNetCompiler.PhysicalPath = "..\BreyFamily\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\BreyFamily\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "11927"
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4302E6A6-84EA-4CFD-B8B6-DE6FA5C1152E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4302E6A6-84EA-4CFD-B8B6-DE6FA5C1152E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

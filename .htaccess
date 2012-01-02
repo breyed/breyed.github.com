@@ -1,0 +1,8 @@
+RewriteEngine On
+
+RewriteCond %{HTTP_HOST} ^www\.breyfamily\.net$ [nocase]
+RewriteRule ^(.*)$ http://breyfamily.net/$1 [redirect=permanent,last]
+
+RewriteRule ^LocalEvents$ localevents.html [nocase]
+
+ErrorDocument 404 /404.html
