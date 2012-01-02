@@ -1,0 +1,163 @@
+﻿body {
+	background: url(images/MopsyJulius.jpg) no-repeat fixed center;
+	background-size: cover;
+	font-family: Calibri, Arial, Helvetica, sans-serif;
+	font-size: 13pt;
+	color: black;
+}
+body.PhotoDirections {
+	min-width: 960px;
+}
+div.Step {
+	clear: both;
+	color: inherit;
+	background: #fef8ee;
+	padding: 1.5em;
+	margin: 2em 10%;
+	border: 1px solid gray;
+	border-radius: 1.5ex;
+	box-shadow: 10px 10px 5px #888;
+}
+div.clear {
+	/* Use an empty div at the end of a div block to prevent a floating picture from extending below the div block. */
+	clear: both;
+}
+.Step li {
+	margin-bottom: .5ex;
+}
+.Step dl dt {
+	font-weight: bold;
+	margin-top: 1em;
+}
+h2, h3 {
+	color: maroon;
+}
+h1 {
+	margin: 5%;
+	padding: .2em;
+	border-radius: .8ex;
+	background: rgba(255,255,255,0.7);
+	background: -moz-linear-gradient(-45deg,  rgba(255,255,255,0.8) 0%, rgba(255,255,255,0.6) 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, right bottom, color-stop(0%,rgba(255,255,255,0.8)), color-stop(100%,rgba(255,255,255,0.6))); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(-45deg,  rgba(255,255,255,0.8) 0%,rgba(255,255,255,0.6) 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(-45deg,  rgba(255,255,255,0.8) 0%,rgba(255,255,255,0.6) 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(-45deg,  rgba(255,255,255,0.8) 0%,rgba(255,255,255,0.6) 100%); /* IE10+ */
+	background: linear-gradient(-45deg,  rgba(255,255,255,0.8) 0%,rgba(255,255,255,0.6) 100%); /* W3C */
+	text-align: center;
+	font: 300% 'Rochester', 'Monotype Corsiva', cursive;
+	color: #993300;
+	margin: .5em 5% 1em;
+}
+h1 small, h2 small {
+	font: italic 80% 'Arapey', 'Georgia', serif;
+	display: block;
+	font-weight: normal;
+}
+h2, h3 {
+	font: italic normal 140% "Georgia" , serif;
+	margin-top: 0em; /* We turn the margin off so that the heading abuts the container's padding. Ideally, we would only turn it off for first-child; however IE6's handling of first-child is buggy. TODO: Work around the problem again with the FirstChild class. */
+}
+h3 {
+	font-size: 120%;
+	margin-top: 1.5em;
+}
+.Step p {
+	text-align: justify;
+}
+.Step img {
+	vertical-align: middle;
+	border: none;
+	margin: 1em;
+	float: right;
+	margin: 0 0 1ex 1.5em;
+}
+.Step p img {
+	float: none;
+	margin: 0;
+}
+@media screen and (max-width: 1196px) {
+	.Step p img {
+		width:208px;
+		height:156px;
+	}
+}
+.PhotoDirections div.Step {
+	margin: 2em 1em;
+}
+div.OptionalStep {
+	background: #feeac4;
+}
+a:link {
+	color: #993300;
+	background: none;
+	text-decoration: none;
+}
+a:visited {
+	color: maroon;
+	background: none;
+	text-decoration: none;
+}
+a:hover, a img:hover {
+	background: #FFCC66;
+}
+a:active, a img:active {
+	color: black;
+	background-color: rgb(219, 112, 147);
+}
+.NavFooter {
+	font: 140% 'Rochester' , 'Monotype Corsiva' , cursive;
+	padding: 0 2em;
+	text-align: left;
+	line-height: 3em;
+}
+.NavFooter span {
+	border: thin solid #ccccaa;
+	background: #ffffcc;
+	text-align: center;
+	padding: 1ex;
+	border-radius: .5ex;
+}
+
+#disqus_thread {
+	background: white;
+	margin: 2em 4em 4em 4em;
+	padding: 1ex 1em;
+	border-radius: 1ex;
+}
+#disqus_thread h3 {
+	font: normal 80% sans-serif;
+	color: black;
+}
+#disqus_thread li {
+	font: normal 90% sans-serif;
+	color: black;
+}
+#disqus_thread a {
+	font: normal 90% sans-serif;
+}
+
+/* Style overrides for printing */
+@media print {
+	h1, body div {
+		/* > */
+		margin: auto;
+		border: none;
+		background: none;
+		page-break-inside: avoid;
+	}
+	.Album div {
+		page-break-before: always; /* This is here since IE5 does a bad job with page-break-inside:avoid. */
+	}
+	*:link, *:visited {
+		color: black;
+		background: none;
+		text-decoration: none;
+	}
+	.NavFooter {
+		display: none;
+	}
+	.Resume h1 {
+		background: none;
+		border: none;
+	}
+}

@@ -1,0 +1,127 @@
+﻿/* CSS Reset - from http://meyerweb.com/eric/tools/css/reset/ v2.0 | 20110126 */
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+	border: 0;
+	font: inherit;
+	font-size: 100%;
+	margin: 0;
+	padding: 0;
+	vertical-align: baseline;
+}
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+
+body {
+	line-height: 1;
+}
+
+ol, ul {
+	list-style: none;
+}
+
+blockquote, q {
+	quotes: none;
+}
+
+blockquote:before, blockquote:after, q:before, q:after {
+	content: '';
+	content: none;
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* Clearing Floats */
+.group:after {
+	content: ".";
+	display: block;
+	height: 0;
+	clear: both;
+	visibility: hidden;
+}
+
+/* General Styles */
+body {
+	font: 12px 'Georgia', serif;
+	color: black;
+}
+
+a {
+	text-decoration: none;
+	color: #993300;
+}
+
+header nav p {
+	margin: 20px 0 6px 0;
+	font-size: 21px;
+	color: #872800;
+}
+
+nav ul {
+	padding-left: 5px;
+}
+
+nav li a {
+	font: 16px 'Trebuchet MS', sans-serif;
+	color: #075487;
+	padding: 5px;
+	display: inline-block;
+}
+
+nav a:hover {
+	background-color: #3B120020;
+}
+
+nav img {
+	float: right;
+	width: 65px;
+	border-radius: 50%;
+}
+
+/* Home Page Styles */
+.Home {
+	font-size: 18px;
+}
+
+.Home header {
+	font: italic 100% 'Arapey', 'Georgia', serif;
+	font-weight: 600;
+	width: 278px;
+	margin: 30px;
+	padding: 30px;
+	border-radius: 10px;
+	background: linear-gradient(-45deg, rgba(255, 255, 255, .8) 0%, rgba(255, 255, 255, .9) 100%);
+}
+
+@media screen and (min-width: 500px) {
+	.Home header {
+		position: block;
+		margin-left: auto;
+		margin-right: auto;
+	}
+}
+
+body.Home h1 {
+	font: 60px 'Rochester', 'Monotype Corsiva', cursive;
+	color: #872800;
+	line-height: 60px;
+	margin-bottom: 40px;
+}
+
+.Home svg {
+	width: 35px;
+	height: 35px;
+}
+
+.social svg {
+	width: 38px;
+	height: 38px;
+	margin: -4px;
+}
+
+.social {
+	margin-bottom: -10px;
+}
