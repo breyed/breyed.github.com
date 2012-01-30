@@ -1,12 +1,13 @@
 ﻿body {
-	background: rgb(251,211,220) url("images/RoseBackground.jpg");
-	font-family: "Georgia", serif;
+	background: url(images/MopsyJulius.jpg) no-repeat fixed center;
+	background-size: cover;
+	font-family: "Cambria" , "Georgia" , serif;
 	color: black;
 }
 div.Step {
 	clear: both;
 	color: inherit;
-	background: rgb(255,238,232) url("images/ParchmentPink.jpg");
+	background: rgb(255,238,232) url("images/Parchment.jpg");
 	padding: 1.5em;
 	margin: 2em 10%;
 	border: 1px solid gray;
@@ -24,19 +25,27 @@ div.clear {
 	font-weight: bold;
 	margin-top: 1em;
 }
-h1, h2, h3 {
+h2, h3 {
 	color: maroon;
 }
 h1 {
-	font: bold 300% "French Script MT" , "Monotype Corsiva" , "Lucida Calligraphy" , "Old English Text MT" , serif;
-	text-align: center;
-	background: rgb(255,240,207) url("images/Parchment.jpg");
+	margin: 5%;
 	padding: .2em;
 	border-radius: .8ex;
-	border: solid .2ex maroon;
-	margin: .5em 20% 1em;
+	background: rgba(255,255,255,0.7);
+	background: -moz-linear-gradient(-45deg,  rgba(255,255,255,0.8) 0%, rgba(255,255,255,0.6) 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, right bottom, color-stop(0%,rgba(255,255,255,0.8)), color-stop(100%,rgba(255,255,255,0.6))); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(-45deg,  rgba(255,255,255,0.8) 0%,rgba(255,255,255,0.6) 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(-45deg,  rgba(255,255,255,0.8) 0%,rgba(255,255,255,0.6) 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(-45deg,  rgba(255,255,255,0.8) 0%,rgba(255,255,255,0.6) 100%); /* IE10+ */
+	background: linear-gradient(-45deg,  rgba(255,255,255,0.8) 0%,rgba(255,255,255,0.6) 100%); /* W3C */
+	text-align: center;
+	font: 300% 'Rochester', 'Monotype Corsiva', cursive;
+	color: #993300;
+	margin: .5em 5% 1em;
 }
 h1 small, h2 small {
+	font: italic 80% 'Arapey', 'Georgia', serif;
 	display: block;
 	font-weight: normal;
 }
