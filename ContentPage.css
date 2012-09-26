@@ -4,6 +4,9 @@
 	font-family: "Cambria" , "Georgia" , serif;
 	color: black;
 }
+body.PhotoDirections {
+	min-width: 960px;
+}
 div.Step {
 	clear: both;
 	color: inherit;
@@ -64,13 +67,20 @@ h3 {
 	vertical-align: middle;
 	border: none;
 	margin: 1em;
-}
-.Step img {
 	float: right;
 	margin: 0 0 1ex 1.5em;
 }
+.Step p img {
+	float: none;
+	margin: 0;
+}
+@media screen and (max-width: 1196px) {
+    .Step p img {
+	    width:208px;
+		height:156px;
+    }
+}
 .PhotoDirections div.Step {
-	min-width: 780px;
 	margin: 2em 1em;
 }
 a:link {
