@@ -88,7 +88,7 @@ body.Home h1 {
 	line-height: 60px;
 	margin-bottom: 40px;
 }
-#email {
-	font: bold 13px 'Verdana', sans-serif;
+.email {
 	color: #993300;
+	line-height: 28px;
 }
