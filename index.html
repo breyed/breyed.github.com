@@ -14,8 +14,12 @@
 
 		<script type="text/javascript">
 			function replaceEmail() {
-				var email = document.getElementById("email");
-				email.innerHTML = "EdAndBeth";
+				var email = document.getElementById("email-ed");
+				email.innerHTML = "Edward";
+				email.innerHTML += "@" + "BreyFamily.net";
+				email.href = "mailto:" + email.innerHTML;
+				email = document.getElementById("email-beth");
+				email.innerHTML = "Elizabeth";
 				email.innerHTML += "@" + "BreyFamily.net";
 				email.href = "mailto:" + email.innerHTML;
 			}
@@ -36,7 +40,8 @@
 				<p>Forever...</p>
 				<ul><li><a href="eternallife.html">Eternal Life</a></li></ul>
 
-				<p><a id="email" href="mailto:">Ed&nbsp;And&nbsp;Beth&nbsp;@&nbsp;Brey&nbsp;Family.net (remove spaces)</a></p>
+				<p><a id="email-ed" href="mailto:">Edward&nbsp;@&nbsp;Brey&nbsp;Family.net (remove spaces)</a></p>
+				<p><a id="email-beth" href="mailto:">Elizabeth&nbsp;@&nbsp;Brey&nbsp;Family.net (remove spaces)</a></p>
 			</nav>
 		</header>
 	</body>
