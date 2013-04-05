@@ -75,13 +75,16 @@ h3 {
 	margin: 0;
 }
 @media screen and (max-width: 1196px) {
-    .Step p img {
-	    width:208px;
+	.Step p img {
+		width:208px;
 		height:156px;
-    }
+	}
 }
 .PhotoDirections div.Step {
 	margin: 2em 1em;
+}
+div.OptionalStep {
+	background: white url("images/ParchmentWhite.jpg");
 }
 a:link {
 	color: #993300;
