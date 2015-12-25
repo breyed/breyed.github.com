@@ -1,55 +1,56 @@
 ﻿<!DOCTYPE html>
 <html lang="en">
-	<head>
-		<meta charset="UTF-8" />
-		<title>The Brey Family</title>
-		<meta name="description" content="A simple web site about the Brey Family, including their rabbit Mopsy." />
-		<meta name="keywords" content="Brey, rabbit, Mopsy, cage, condo" />
-		<link href="favicon.ico" rel="shortcut icon" type="image/x-icon" />
-		<!--[if lt IE 8]><style type="text/css">body.Home header { background: white; }</style><![endif]-->
-		<!--[if lt IE 9]><style type="text/css">body.Home header { filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#eeffffff', endColorstr='#99ffffff',GradientType=1); }</style><![endif]-->
-		<link href='http://fonts.googleapis.com/css?family=Arapey:400italic|Rochester' rel='stylesheet' type='text/css' />
-		<link href="Site.css" rel="stylesheet" />
-		<script src="modernizr.custom.77692.js"></script>
-	</head>
-	
-	<body class="Home" onload="replaceEmail()">
-		<header>
-			<h1>The Brey Family</h1>
-			<nav>
-				<p>Kids...</p>
-				<ul><li><a href="http://ebfamily.blogspot.com">Blog</a></li></ul>
+<head>
+	<meta charset="UTF-8" />
+	<title>The Brey Family</title>
+	<meta name="description" content="A simple web site about the Brey Family, including their rabbit Mopsy." />
+	<meta name="keywords" content="Brey, rabbit, Mopsy, cage, condo" />
+	<link href="favicon.ico" rel="shortcut icon" type="image/x-icon" />
+	<!--[if lt IE 8]><style type="text/css">body.Home header { background: white; }</style><![endif]-->
+	<!--[if lt IE 9]><style type="text/css">body.Home header { filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#eeffffff', endColorstr='#99ffffff',GradientType=1); }</style><![endif]-->
+	<link href='http://fonts.googleapis.com/css?family=Arapey:400italic|Rochester' rel='stylesheet' type='text/css' />
+	<link href="Site.css" rel="stylesheet" />
+	<script src="modernizr.custom.77692.js"></script>
+</head>
 
-				<p>Work...</p>
-				<ul><li><a href="http://toolsay.com">Toolsay Machine Monitoring Toolkit</a></li></ul>
+<body class="Home" onload="replaceEmail()">
+	<header>
+		<h1>The Brey Family</h1>
+		<nav>
+			<p>Kids...</p>
+			<ul><li><a href="http://ebfamily.blogspot.com">Blog</a></li></ul>
+			<ul><li><a href="https://onedrive.live.com/?cid=4F309A79896B37F9&id=4F309A79896B37F9%2124937">Photos</a></li></ul>
 
-				<p>House rabbit (in honor of the late Mopsy)...</p>
-				<ul><li><a href="bunnycage.html">Mopsy's Bunny Condo Directions</a></li></ul>
+			<p>Work...</p>
+			<ul><li><a href="http://toolsay.com">Toolsay Machine Monitoring Toolkit</a></li></ul>
 
-				<p>Faith...</p>
-				<ul><li><a href="eternallife.html">Eternal Life</a></li></ul>
+			<p>House rabbit...</p>
+			<ul><li><a href="bunnycage.html">Mopsy's Bunny Condo Directions</a></li></ul>
 
+			<p>Faith...</p>
+			<ul><li><a href="eternallife.html">Eternal Life</a></li></ul>
+
+			<p class="email">
+				<a id="email-ed" href="#"></a>
+				<br />
+				<a id="email-beth" href="#"></a>
+			</p>
+			<script>
+				function replaceEmail() {
+					var email = document.getElementById("email-ed");
+					email.innerHTML = "edward";
+					email.innerHTML += "@" + "breyfamily.net";
+					email.href = "mailto:" + email.innerHTML;
+				}
+			</script>
+			<noscript>
 				<p class="email">
-					<a id="email-ed" href="#"></a>
+					Edward&nbsp;@&nbsp;Brey&nbsp;Family&nbsp;.&nbsp;net
 					<br />
-					<a id="email-beth" href="#"></a>
+					(remove spaces)
 				</p>
-				<script>
-					function replaceEmail() {
-						var email = document.getElementById("email-ed");
-						email.innerHTML = "edward";
-						email.innerHTML += "@" + "breyfamily.net";
-						email.href = "mailto:" + email.innerHTML;
-					}
-				</script>
-				<noscript>
-					<p class="email">
-						Edward&nbsp;@&nbsp;Brey&nbsp;Family&nbsp;.&nbsp;net
-						<br />
-						(remove spaces)
-					</p>
-				</noscript>
-			</nav>
-		</header>
-	</body>
+			</noscript>
+		</nav>
+	</header>
+</body>
 </html>

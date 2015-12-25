@@ -1,7 +1,8 @@
 ﻿body {
 	background: url(images/MopsyJulius.jpg) no-repeat fixed center;
 	background-size: cover;
-	font-family: "Cambria" , "Georgia" , serif;
+	font-family: Calibri, Arial, Helvetica, sans-serif;
+	font-size: 13pt;
 	color: black;
 }
 body.PhotoDirections {
@@ -10,7 +11,7 @@ body.PhotoDirections {
 div.Step {
 	clear: both;
 	color: inherit;
-	background: rgb(255,238,232) url("images/Parchment.jpg");
+	background: #fef8ee;
 	padding: 1.5em;
 	margin: 2em 10%;
 	border: 1px solid gray;
@@ -84,7 +85,7 @@ h3 {
 	margin: 2em 1em;
 }
 div.OptionalStep {
-	background: white url("images/ParchmentWhite.jpg");
+	background: #feeac4;
 }
 a:link {
 	color: #993300;
