@@ -106,8 +106,7 @@ a:active, a img:active {
 }
 .NavFooter {
 	font: 140% 'Rochester' , 'Monotype Corsiva' , cursive;
-	padding: 1em;
-	margin: 1ex;
+	padding: 0 2em;
 	text-align: left;
 	line-height: 3em;
 }
@@ -121,7 +120,7 @@ a:active, a img:active {
 
 #disqus_thread {
 	background: white;
-	margin: 4em;
+	margin: 2em 4em 4em 4em;
 	padding: 1ex 1em;
 	border-radius: 1ex;
 }
