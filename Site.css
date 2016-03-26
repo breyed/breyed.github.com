@@ -51,6 +51,7 @@ a:hover {
 }
 header nav p {
 	margin: 20px 0 10px 0;
+	font-size: 20px;
 }
 nav li a {
 	font: 20px 'Trebuchet MS', sans-serif;
@@ -74,13 +75,13 @@ body.Home header {
 	margin: 5%;
 	padding: 30px 30px 5px 30px;
 	border-radius: 10px;
-	background: rgba(255,255,255,0.7);
-	background: -moz-linear-gradient(-45deg,  rgba(255,255,255,0.8) 0%, rgba(255,255,255,0.6) 100%); /* FF3.6+ */
-	background: -webkit-gradient(linear, left top, right bottom, color-stop(0%,rgba(255,255,255,0.8)), color-stop(100%,rgba(255,255,255,0.6))); /* Chrome,Safari4+ */
-	background: -webkit-linear-gradient(-45deg,  rgba(255,255,255,0.8) 0%,rgba(255,255,255,0.6) 100%); /* Chrome10+,Safari5.1+ */
-	background: -o-linear-gradient(-45deg,  rgba(255,255,255,0.8) 0%,rgba(255,255,255,0.6) 100%); /* Opera 11.10+ */
-	background: -ms-linear-gradient(-45deg,  rgba(255,255,255,0.8) 0%,rgba(255,255,255,0.6) 100%); /* IE10+ */
-	background: linear-gradient(-45deg,  rgba(255,255,255,0.8) 0%,rgba(255,255,255,0.6) 100%); /* W3C */
+	background: rgba(255,255,255,.8);
+	background: -moz-linear-gradient(-45deg,  rgba(255,255,255,0.8) 0%, rgba(255,255,255,0.7) 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, right bottom, color-stop(0%,rgba(255,255,255,0.8)), color-stop(100%,rgba(255,255,255,0.7))); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(-45deg,  rgba(255,255,255,0.8) 0%,rgba(255,255,255,0.7) 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(-45deg,  rgba(255,255,255,0.8) 0%,rgba(255,255,255,0.7) 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(-45deg,  rgba(255,255,255,0.8) 0%,rgba(255,255,255,0.7) 100%); /* IE10+ */
+	background: linear-gradient(-45deg,  rgba(255,255,255,0.8) 0%,rgba(255,255,255,0.7) 100%); /* W3C */
 }
 body.Home h1 {
 	font: 60px 'Rochester', 'Monotype Corsiva', cursive;
@@ -88,7 +89,8 @@ body.Home h1 {
 	line-height: 60px;
 	margin-bottom: 40px;
 }
-.email {
-	color: #993300;
+.email a {
+	font: 20px 'Trebuchet MS', sans-serif;
+	color: #5e2000;
 	line-height: 28px;
 }
