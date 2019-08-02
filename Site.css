@@ -61,9 +61,9 @@ nav li a {
 	display: inline-block;
 }
 svg {
-	width: 50px;
-	height: 50px;
-	margin: -6px;
+	width: 35px;
+	height: 35px;
+	margin: -3px;
 }
 nav a:hover {
 	background-color: #3B120020;
