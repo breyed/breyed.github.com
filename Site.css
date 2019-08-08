@@ -46,7 +46,7 @@ a {
 	text-decoration: none;
 	color: #993300;
 }
-header nav p {
+header nav p, header nav img {
 	margin: 20px 0 6px 0;
 	font-size: 21px;
 	color: #872800;
