@@ -46,7 +46,7 @@ a {
 	text-decoration: none;
 	color: #993300;
 }
-header nav p, header nav img {
+header nav p {
 	margin: 20px 0 6px 0;
 	font-size: 21px;
 	color: #872800;
@@ -63,17 +63,24 @@ nav li a {
 nav a:hover {
 	background-color: #3B120020;
 }
+nav img {
+	float:right;
+	width: 65px;
+	border-radius: 50%;
+}
 
 /* Home Page Styles */
 .Home {
 	font-size: 18px;
-/*	background: url(images/background.jpg) no-repeat fixed center;
-	background-size: cover; */
+	background: url(images/background.jpg) no-repeat fixed center;
+	background-size: cover;
 }
 .Home header {
+	position: absolute;
+	right: 0;
 	font: italic 100% 'Arapey', 'Georgia', serif;
 	width: 274px;
-	margin: 5%;
+	margin: 30px;
 	padding: 30px;
 	border-radius: 10px;
 	background: linear-gradient(-45deg,  rgba(255,255,255,.6) 0%,rgba(255,255,255,.9) 100%);
@@ -84,16 +91,15 @@ body.Home h1 {
 	line-height: 60px;
 	margin-bottom: 40px;
 }
-svg {
+.Home svg {
 	width: 35px;
 	height: 35px;
-	margin: -3px;
 }
 .social svg {
 	width: 38px;
 	height: 38px;
 	margin: -4px;
 }
-.social {
-	margin-top: 5px;
+ .social {
+	margin-bottom: -10px;
 }
