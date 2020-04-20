@@ -79,11 +79,12 @@ nav img {
 	position: absolute;
 	right: 0;
 	font: italic 100% 'Arapey', 'Georgia', serif;
+	font-weight: 600;
 	width: 274px;
 	margin: 30px;
 	padding: 30px;
 	border-radius: 10px;
-	background: linear-gradient(-45deg,  rgba(255,255,255,.6) 0%,rgba(255,255,255,.9) 100%);
+	background: linear-gradient(-45deg,  rgba(255,255,255,.8) 0%,rgba(255,255,255,.9) 100%);
 }
 body.Home h1 {
 	font: 60px 'Rochester', 'Monotype Corsiva', cursive;
